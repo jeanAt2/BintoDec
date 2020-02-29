@@ -1,13 +1,13 @@
-
-
-var numeroEntrada = document.getElementById('#numeroEntrada').value;
+var nEntrada;
 var final = 0;
 
 
-function conversor(numeroEntrada) {
+function conversor(nEntrada) {
 
-    numeroEntrada.toString();
-    var valor = numeroEntrada.split('');
+  nEntrada = document.getElementById("numeroEntrada").value;
+
+  nEntrada.toString();
+  var valor = nEntrada.split('');
     
     console.log(valor);
     var c = valor.length - 1;
@@ -31,7 +31,6 @@ function conversor(numeroEntrada) {
 
 function resultado() {
   alert("Decimal: " + final);
+  final =0;
 }
-
-conversor();
 
