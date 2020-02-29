@@ -1,7 +1,6 @@
 var nEntrada;
 var final = 0;
 
-
 function conversor(nEntrada) {
 
   nEntrada = document.getElementById("numeroEntrada").value;
